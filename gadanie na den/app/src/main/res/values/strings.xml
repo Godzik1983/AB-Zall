@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name"> DATE PROGNOSES</string>
+    <string name="birth_date">Enter your birthday</string>
+    <string name="back">BACK</string>
+    <string name="again">Start once again</string>
+    <string name="one">"luck in business"</string>
+    <string name="two">"disappointment"</string>
+    <string name="three">"the road and a serious conversation"</string>
+    <string name="four">"Important news"</string>
+    <string name="five">"an unexpected meeting"</string>
+    <string name="six">"destruction of plans"</string>
+    <string name="seven">"everything will go according to plan"</string>
+    <string name="eight">"clash with detractors"</string>
+    <string name="nine">"a miracle will happen"</string>
+    <string name="get_prognoses">"GET RESULT"</string>
+    <string name="type_birthday">"YOUR BIRTHDAY"</string>
+    <string name="type_date">"SELECT ANY DATE"</string>
+    <string name="ok_date">"ОK! SELECT ANY DATE"</string>
+    <string name="ok_result">"ОK! GET RESULT"</string>
+    <string name="something_wrong">"Date ERROR. SELECT DATE AGAIN !!!"</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ГАДАНИЕ НА ЛЮБУЮ ДАТУ</string>
+    <string name="birth_date">ВВЕДИТЕ ДАТУ РОЖДЕНИЯ</string>
+    <string name="back">НАЗАД</string>
+    <string name="again">ПОГАДАТЬ ЗАНОВО</string>
+    <string name="one">"удача в делах"</string>
+    <string name="two">"разочарование"</string>
+    <string name="three">"дорога и серьезный разговор"</string>
+    <string name="four">"важные новости"</string>
+    <string name="five">"неожиданная встреча"</string>
+    <string name="six">"разрушение планов"</string>
+    <string name="seven">"все пойдет по плану"</string>
+    <string name="eight">"столкновение с недоброжелателями"</string>
+    <string name="nine">"произойдет чудо"</string>
+    <string name="get_prognoses">"ПОЛУЧИТЬ ПРОГНОЗ"</string>
+    <string name="type_birthday">"ДАТА ВАШЕГО РОЖДЕНИЯ"</string>
+    <string name="type_date">"ВЫБЕРИТЕ ЛЮБУЮ ДАТУ"</string>
+    <string name="ok_date">"Ок! Выбери любую дату"</string>
+    <string name="ok_result">"Ок! Получи прогноз"</string>
+    <string name="something_wrong">"ОШИБКА ДАТ ! Введите даты заново !"</string>
+
+</resources>

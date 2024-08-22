@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Gadanie_po_date" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <!--item name="colorPrimary">@color/purple_500</item> -->
+        <!--item name="colorPrimaryVariant">@color/purple_700</item> -->
+        <!--item name="colorOnPrimary">@color/white</item> -->
+        <item name="colorPrimary">#DA1CBA</item>
+        <item name="colorPrimaryVariant">#FF5722</item>
+        <item name="colorOnPrimary">#DF9E9E</item>
+        <item name="fontFamily">@font/open_sans_light</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowEnterTransition">@android:transition/explode</item>
+        <item name="android:windowExitTransition">@android:transition/fade</item>
+        <item name="android:layout_margin">5dp</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#68023A</item>
+        <item name="colorSecondaryVariant">@color/start_ic_launcher_background</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MyDatePickerDialogTheme" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:datePickerStyle">@style/MyDatePickerStyle</item>
+        <item name="android:colorAccent">#4F0334</item>
+    </style>
+
+    <style name="MyDatePickerStyle" parent="@android:style/Widget.Material.Light.DatePicker">
+        <item name="android:headerBackground">@color/purple_200</item>
+        <item name="android:datePickerMode">calendar</item>
+    </style>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.skillbox_hw_quiz.ui.main.MainFragment"
+        android:label="main_fragment"
+        tools:layout="@layout/main_fragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_ekranOprosa"
+            app:destination="@id/ekranOprosa"
+            app:enterAnim="@anim/opros_alpha"
+            app:exitAnim="@anim/opros_alpha"
+            app:popEnterAnim="@anim/opros_alpha"
+            app:popExitAnim="@anim/opros_alpha" />
+    </fragment>
+    <fragment
+        android:id="@+id/ekranOprosa"
+        android:name="com.example.skillbox_hw_quiz.DataFragment"
+        android:label="fragment_ekran_oprosa"
+        tools:layout="@layout/fragment_data_enter" >
+        <action
+            android:id="@+id/action_ekranOprosa_to_otvetFragment"
+            app:destination="@id/otvetFragment"
+            app:enterAnim="@anim/opros_alpha"
+            app:exitAnim="@anim/opros_alpha"
+            app:popEnterAnim="@anim/opros_alpha"
+            app:popExitAnim="@anim/opros_alpha"
+            app:popUpTo="@id/ekranOprosa"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="answ1"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_ekranOprosa_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:enterAnim="@anim/opros_alpha"
+            app:exitAnim="@anim/opros_alpha"
+            app:popEnterAnim="@anim/opros_alpha"
+            app:popExitAnim="@anim/opros_alpha" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/otvetFragment"
+        android:name="com.example.skillbox_hw_quiz.ui.main.OtvetFragment"
+        android:label="fragment_otvet"
+        tools:layout="@layout/fragment_otvet" >
+        <action
+            android:id="@+id/action_otvetFragment_to_ekranOprosa"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/mainFragment" />
+    </fragment>
+</navigation>
